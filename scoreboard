@@ -121,13 +121,14 @@ local function CreateMainWindow()
     GameInfoFrame.Size = UDim2.new(0, 222, 0, 26)
 
     Date.Name = "Date"
+    
     Date.Parent = GameInfoFrame
     Date.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Date.BackgroundTransparency = 1.000
     Date.Position = UDim2.new(0, 0, 0.0746753365, 0)
     Date.Size = UDim2.new(0.440171152, 0, 1, 0)
     Date.Font = Enum.Font.SourceSans
-    Date.Text = "MM/DD/YY"
+    Date.Text = "os.date("%m/%d/%y")"
     Date.TextColor3 = Color3.fromRGB(173, 173, 173)
     Date.TextSize = 27.000
     Date.TextWrapped = true
