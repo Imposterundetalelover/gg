@@ -128,7 +128,7 @@ local function CreateMainWindow()
     Date.Position = UDim2.new(0, 0, 0.0746753365, 0)
     Date.Size = UDim2.new(0.440171152, 0, 1, 0)
     Date.Font = Enum.Font.SourceSans
-    Date.Text = "os.date("%m/%d/%y")"
+    Date.Text = "m/d/y"
     Date.TextColor3 = Color3.fromRGB(173, 173, 173)
     Date.TextSize = 27.000
     Date.TextWrapped = true
