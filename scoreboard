@@ -109,7 +109,7 @@ local function CreateMainWindow()
     BEDWARS.BorderSizePixel = 0
     BEDWARS.Size = UDim2.new(1, 0, 0.0746753216, 0)
     BEDWARS.Font = Enum.Font.SourceSans
-    BEDWARS.Text = "Bedwars | MATCH"
+    BEDWARS.Text = "BEDWARS"
     BEDWARS.TextColor3 = Color3.fromRGB(252, 255, 75)
     BEDWARS.TextSize = 27.000
 
