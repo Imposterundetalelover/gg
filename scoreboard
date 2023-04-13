@@ -102,7 +102,7 @@ local function CreateMainWindow()
     UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right
     UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
-    BEDWARS.Name = "BEDWARS | trencity skids L"
+    BEDWARS.Name = "BEDWARS"
     BEDWARS.Parent = MainObjects
     BEDWARS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     BEDWARS.BackgroundTransparency = 1.000
